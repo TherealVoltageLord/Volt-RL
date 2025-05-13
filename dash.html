@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>⚡ Volt Dashboard</title>
+  <link rel="stylesheet" href="dash.css"/>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous"/>
+</head>
+<body>
+  <div class="dashboard-container neon">
+    <h1><i class="fas fa-tachometer-alt"></i> Dashboard</h1>
+    <button onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</button>
+    <div class="url-form">
+      <input id="long-url" type="text" placeholder="&#xf0c1; Enter URL..." />
+      <input id="custom-alias" type="text" placeholder="&#xf304; Custom alias (opt)" />
+      <button onclick="shortenUrl()"><i class="fas fa-magic"></i> Shorten URL</button>
+      <p id="short-url-result"></p>
+    </div>
+    <h2><i class="fas fa-list"></i> Your Links</h2>
+    <ul id="url-list"></ul>
+  </div>
+  <script src="dash.js"></script>
+</body>
+</html>

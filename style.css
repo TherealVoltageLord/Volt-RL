@@ -1,0 +1,45 @@
+
+body {
+    margin: 0; padding: 0;
+    background: #0a0a0a;
+    display: flex; justify-content: center; align-items: center;
+    height: 100vh; font-family: 'Segoe UI', sans-serif; color: #eee;
+  }
+  .auth-container, .dashboard-container {
+    background: #1a001a;
+    padding: 2rem; border-radius: 12px;
+    box-shadow: 0 0 20px #8e44ad;
+    width: 320px; text-align: center;
+  }
+  .neon h1 {
+    color: #8e44ad;
+    text-shadow: 0 0 10px #8e44ad, 0 0 20px #8e44ad;
+  }
+  input {
+    width: 100%; margin: 10px 0; padding: 12px;
+    background: #2a002a; border: 1px solid #8e44ad;
+    border-radius: 6px; color: #eee; font-size: 1rem;
+  }
+  input::placeholder {
+    font-family: 'Font Awesome 6 Free', 'Segoe UI', sans-serif;
+    color: #999;
+  }
+  button {
+    width: 100%; padding: 12px; margin-top: 10px;
+    background: #8e44ad; border: none; border-radius: 6px;
+    color: #fff; font-size: 1rem; cursor: pointer;
+    text-shadow: 0 0 5px #5e297a;
+  }
+  button:hover {
+    background: #a552d9; box-shadow: 0 0 10px #a552d9;
+  }
+  #url-list {
+    margin-top: 1rem; text-align: left;
+    max-height: 200px; overflow-y: auto;
+  }
+  #url-list li {
+    background: #2a002a; padding: 10px; margin-bottom: 8px;
+    border-radius: 6px; list-style: none;
+    border-left: 4px solid #8e44ad;
+  }
+  

@@ -1,0 +1,39 @@
+/* Dashboard Neon Theme */
+body {
+    margin: 0; padding: 0;
+    background: #0a0a0a;
+    display: flex; justify-content: center; align-items: center;
+    height: 100vh; font-family: 'Segoe UI', sans-serif; color: #eee;
+  }
+  .dashboard-container {
+    background: #1a001a;
+    padding: 2rem; border-radius: 12px;
+    box-shadow: 0 0 20px #8e44ad;
+    width: 360px; text-align: center;
+  }
+  .neon h1 {
+    color: #8e44ad;
+    text-shadow: 0 0 10px #8e44ad;
+  }
+  button {
+    width: 100%; padding: 12px; margin: 10px 0;
+    background: #8e44ad; border: none; border-radius: 6px;
+    color: #fff; font-size: 1rem; cursor: pointer;
+  }
+  button:hover {
+    background: #a552d9;
+  }
+  .url-form input {
+    width: 100%; padding: 10px; margin: 8px 0;
+    background: #2a002a; border: 1px solid #8e44ad;
+    border-radius: 6px; color: #eee;
+  }
+  #url-list {
+    list-style: none; padding: 0;
+    max-height: 200px; overflow-y: auto; text-align: left;
+  }
+  #url-list li {
+    background: #2a002a; padding: 8px; margin-bottom: 8px;
+    border-radius: 6px; border-left: 4px solid #8e44ad;
+  }
+  
